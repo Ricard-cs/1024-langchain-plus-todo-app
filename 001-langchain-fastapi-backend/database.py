@@ -8,8 +8,8 @@ load_dotenv()
 
 #SQLALCHEMY_DATABASE_URL = f"postgresql://{os.environ['DATABASE_USER']}:@{os.environ['DATABASE_HOST']}/{os.environ['DATABASE_NAME']}"
 
-user = os.environ['DATABASE_USER']
 password = os.environ['DATABASE_PASSWORD']
+user = os.environ['DATABASE_USER']
 host = os.environ['DATABASE_HOST']
 port = os.environ['DATABASE_PORT']
 db_name = os.environ['DATABASE_NAME']
